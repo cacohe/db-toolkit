@@ -1,0 +1,34 @@
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "db_toolkit"  # pip install 时的名字
+version = "0.1.0"
+description = "统一的跨平台数据库工具库"
+authors = [
+    { name = "hanpj", email = "hanpj7524@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+# [重要] 在这里列出你的工具库依赖的第三方库
+dependencies = [
+    # MySQL
+    "mysql-connector-python>=8.0.0",
+    # PostgreSQL
+    "psycopg2-binary>=2.9.0",
+    # MongoDB
+    "pymongo>=4.0.0",
+    # Redis
+    "redis>=4.0.0",
+    # Supabase
+    "supabase>=2.0.0"
+]
+
+[tool.poetry]
+# 告诉 Poetry 源代码在 src 目录下
+packages = [{include = "db_toolkit", from = "src"}]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"

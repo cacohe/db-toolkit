@@ -1,0 +1,19 @@
+# 数据库驱动依赖
+# 根据需要安装相应的驱动
+
+# MySQL
+mysql-connector-python>=8.0.0
+
+# PostgreSQL
+psycopg2-binary>=2.9.0
+
+# MongoDB
+pymongo>=4.0.0
+
+# Redis
+redis>=4.0.0
+
+# Supabase
+supabase>=2.0.0
+
+# SQLite (Python内置，无需安装)
