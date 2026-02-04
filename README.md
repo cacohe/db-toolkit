@@ -508,15 +508,6 @@ python examples.py
 
 欢迎提交Issue和Pull Request！
 
-## 📄 许可证
-
-MIT License
-
-## 📞 联系方式
-
-- GitHub: [your-repo](https://github.com/your/db-toolkit)
-- Email: your-email@example.com
-
 ## 🗺️ 路线图
 
 - [ ] 连接池支持
@@ -526,21 +517,3 @@ MIT License
 - [ ] 更多数据库支持（CockroachDB、Cassandra等）
 - [ ] 性能监控和分析
 - [ ] 查询缓存
-
-## 📝 更新日志
-
-### v2.0.0 (2024-02-04)
-- ✨ 完全重构的模块化架构
-- 🏗️ 清晰的项目结构
-- 📦 批量操作支持
-- 💾 事务管理
-- 🔧 查询构建器
-- ⚙️ 配置管理器
-- 🛡️ 完整的异常处理
-- 📝 完整的类型注解
-- ✅ 30个单元测试
-
-### v1.0.0 (2024-01-01)
-- 🎉 初始版本
-- 支持6种数据库
-- 基础CRUD操作

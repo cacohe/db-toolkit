@@ -3,8 +3,8 @@ requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "db_toolkit"  # pip install 时的名字
-version = "0.1.0"
+name = "db_client_toolkit"  # pip install 时的名字
+version = "0.0.1"
 description = "统一的跨平台数据库工具库"
 authors = [
     { name = "hanpj", email = "hanpj7524@gmail.com" }

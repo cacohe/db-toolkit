@@ -4,3 +4,4 @@
 .pytest_cache/
 examples/
 *.pyc
+dist/
